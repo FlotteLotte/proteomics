@@ -1,17 +1,17 @@
 #!/user/bin/perl -w
 use warnings;
 use strict;
-my $count = 1;
-my $i;
-my $line;
-my $id;
-my $sequenz="";
-my @arr;
-my @massen;
-my $masse;
-my $letter;
-my $j;
-my $massegerundet;
+my $count = 1; #Zaehler
+my $i; #Schleifenvariable
+my $line; #eine Zeile
+my $id; #speichert ID
+my $sequenz=""; #enthaelt Sequenz
+my @arr; #entaehlt Fragmente nach splitten (K bzw R aber nicht an P)
+my @massen; #Masse eines Fragments
+my $masse; #gesamtmasse
+my $letter; Buchstabe in Fragment
+my $j; #Schleifenvariable
+my $massegerundet; #gerundetes Ergebnis auf 2 Nachkommastellen
 my $idneu;
 my $file = "C:/Dokumente und Einstellungen/Maria_Liebl/test.fasta";
 
